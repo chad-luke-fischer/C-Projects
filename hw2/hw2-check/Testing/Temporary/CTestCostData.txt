@@ -1,0 +1,16 @@
+SelSortBasic.OneElementFindMin 3 1.24201
+SelSortBasic.ThreeElementFindMin 3 1.37738
+SelSortBasic.TenElementFindMin 3 1.26456
+SelSortBasic.ThreeElementSort 3 1.39875
+SelSortBasic.TenElementSort 3 1.24137
+ListBasic.ConstructionDestruction 3 1.29834
+ListBasic.OneItemAdd 3 1.28002
+ListBasic.ThreeItemAdd 3 1.26686
+ListBasic.Empty 3 1.27168
+ListBasic.OneItemRemove 3 1.17853
+ListBasic.ThreeItemRemove 3 1.3049
+ListBasic.Set 3 1.03397
+ListBasic.CircularIndicies 3 1.29225
+DDGRoundBasic.TwoPlayers 3 1.35282
+DDGBasic.FivePlayers 3 2.13334
+---

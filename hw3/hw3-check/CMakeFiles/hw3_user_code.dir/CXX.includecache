@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/hw-clfische/hw3/circular_list_int.cpp
+iostream
+-
+stdlib.h
+-
+circular_list_int.h
+/home/student/hw-clfische/hw3/circular_list_int.h
+
+/home/student/hw-clfische/hw3/circular_list_int.h
+string
+-
+
+/home/student/hw-clfische/hw3/parser.cpp
+iostream
+-
+string
+-
+stdlib.h
+-
+stackint.h
+/home/student/hw-clfische/hw3/stackint.h
+ctype.h
+-
+fstream
+-
+
+/home/student/hw-clfische/hw3/stackint.cpp
+iostream
+-
+stdlib.h
+-
+stackint.h
+/home/student/hw-clfische/hw3/stackint.h
+
+/home/student/hw-clfische/hw3/stackint.h
+circular_list_int.h
+/home/student/hw-clfische/hw3/circular_list_int.h
+

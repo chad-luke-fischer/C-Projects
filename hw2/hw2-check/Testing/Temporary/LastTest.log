@@ -1,0 +1,696 @@
+Start testing: Sep 14 22:02 PDT
+----------------------------------------------------------
+4/15 Testing: SelSortBasic.ThreeElementSort
+4/15 Test: SelSortBasic.ThreeElementSort
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/selection_sort_tests/selection_sort_test" "--gtest_filter=SelSortBasic.ThreeElementSort" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/selection_sort_tests
+"SelSortBasic.ThreeElementSort" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13955== Memcheck, a memory error detector
+==13955== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13955== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13955== Command: /home/student/hw-clfische/hw2/hw2-check/selection_sort_tests/selection_sort_test --gtest_filter=SelSortBasic.ThreeElementSort --gtest_color=yes
+==13955== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = SelSortBasic.ThreeElementSort
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from SelSortBasic
+[0;32m[ RUN      ] [mSelSortBasic.ThreeElementSort
+[0;32m[       OK ] [mSelSortBasic.ThreeElementSort (25 ms)
+[0;32m[----------] [m1 test from SelSortBasic (36 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (102 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13955== 
+==13955== HEAP SUMMARY:
+==13955==     in use at exit: 72,704 bytes in 1 blocks
+==13955==   total heap usage: 238 allocs, 237 frees, 125,449 bytes allocated
+==13955== 
+==13955== LEAK SUMMARY:
+==13955==    definitely lost: 0 bytes in 0 blocks
+==13955==    indirectly lost: 0 bytes in 0 blocks
+==13955==      possibly lost: 0 bytes in 0 blocks
+==13955==    still reachable: 0 bytes in 0 blocks
+==13955==         suppressed: 72,704 bytes in 1 blocks
+==13955== 
+==13955== For counts of detected and suppressed errors, rerun with: -v
+==13955== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.43 sec
+----------------------------------------------------------
+Test Passed.
+"SelSortBasic.ThreeElementSort" end time: Sep 14 22:02 PDT
+"SelSortBasic.ThreeElementSort" time elapsed: 00:00:01
+----------------------------------------------------------
+
+15/15 Testing: DDGBasic.FivePlayers
+15/15 Test: DDGBasic.FivePlayers
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/duck_duck_goose_tests/duck_duck_goose_test" "--gtest_filter=DDGBasic.FivePlayers" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/duck_duck_goose_tests
+"DDGBasic.FivePlayers" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13954== Memcheck, a memory error detector
+==13954== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13954== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13954== Command: /home/student/hw-clfische/hw2/hw2-check/duck_duck_goose_tests/duck_duck_goose_test --gtest_filter=DDGBasic.FivePlayers --gtest_color=yes
+==13954== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = DDGBasic.FivePlayers
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from DDGBasic
+[0;32m[ RUN      ] [mDDGBasic.FivePlayers
+Executing program: /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/student/hw-clfische/hw2/hw2-check/duck_duck_goose /home/student/hw-clfische/hw2/hw2-check/duck_duck_goose_tests/testFiles/basic_five_players/config.txt /home/student/hw-clfische/hw2/hw2-check/duck_duck_goose_tests/testFiles/basic_five_players/output.txt
+[0;32m[       OK ] [mDDGBasic.FivePlayers (1155 ms)
+[0;32m[----------] [m1 test from DDGBasic (1170 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (1214 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13954== 
+==13954== HEAP SUMMARY:
+==13954==     in use at exit: 72,704 bytes in 1 blocks
+==13954==   total heap usage: 279 allocs, 278 frees, 158,851 bytes allocated
+==13954== 
+==13954== LEAK SUMMARY:
+==13954==    definitely lost: 0 bytes in 0 blocks
+==13954==    indirectly lost: 0 bytes in 0 blocks
+==13954==      possibly lost: 0 bytes in 0 blocks
+==13954==    still reachable: 0 bytes in 0 blocks
+==13954==         suppressed: 72,704 bytes in 1 blocks
+==13954== 
+==13954== For counts of detected and suppressed errors, rerun with: -v
+==13954== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   2.50 sec
+----------------------------------------------------------
+Test Passed.
+"DDGBasic.FivePlayers" end time: Sep 14 22:02 PDT
+"DDGBasic.FivePlayers" time elapsed: 00:00:02
+----------------------------------------------------------
+
+2/15 Testing: SelSortBasic.ThreeElementFindMin
+2/15 Test: SelSortBasic.ThreeElementFindMin
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/selection_sort_tests/selection_sort_test" "--gtest_filter=SelSortBasic.ThreeElementFindMin" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/selection_sort_tests
+"SelSortBasic.ThreeElementFindMin" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13957== Memcheck, a memory error detector
+==13957== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13957== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13957== Command: /home/student/hw-clfische/hw2/hw2-check/selection_sort_tests/selection_sort_test --gtest_filter=SelSortBasic.ThreeElementFindMin --gtest_color=yes
+==13957== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = SelSortBasic.ThreeElementFindMin
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from SelSortBasic
+[0;32m[ RUN      ] [mSelSortBasic.ThreeElementFindMin
+[0;32m[       OK ] [mSelSortBasic.ThreeElementFindMin (23 ms)
+[0;32m[----------] [m1 test from SelSortBasic (33 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (99 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13957== 
+==13957== HEAP SUMMARY:
+==13957==     in use at exit: 72,704 bytes in 1 blocks
+==13957==   total heap usage: 235 allocs, 234 frees, 125,343 bytes allocated
+==13957== 
+==13957== LEAK SUMMARY:
+==13957==    definitely lost: 0 bytes in 0 blocks
+==13957==    indirectly lost: 0 bytes in 0 blocks
+==13957==      possibly lost: 0 bytes in 0 blocks
+==13957==    still reachable: 0 bytes in 0 blocks
+==13957==         suppressed: 72,704 bytes in 1 blocks
+==13957== 
+==13957== For counts of detected and suppressed errors, rerun with: -v
+==13957== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.41 sec
+----------------------------------------------------------
+Test Passed.
+"SelSortBasic.ThreeElementFindMin" end time: Sep 14 22:02 PDT
+"SelSortBasic.ThreeElementFindMin" time elapsed: 00:00:01
+----------------------------------------------------------
+
+14/15 Testing: DDGRoundBasic.TwoPlayers
+14/15 Test: DDGRoundBasic.TwoPlayers
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/duck_duck_goose_tests/duck_duck_goose_test" "--gtest_filter=DDGRoundBasic.TwoPlayers" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/duck_duck_goose_tests
+"DDGRoundBasic.TwoPlayers" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13958== Memcheck, a memory error detector
+==13958== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13958== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13958== Command: /home/student/hw-clfische/hw2/hw2-check/duck_duck_goose_tests/duck_duck_goose_test --gtest_filter=DDGRoundBasic.TwoPlayers --gtest_color=yes
+==13958== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = DDGRoundBasic.TwoPlayers
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from DDGRoundBasic
+[0;32m[ RUN      ] [mDDGRoundBasic.TwoPlayers
+[0;32m[       OK ] [mDDGRoundBasic.TwoPlayers (32 ms)
+[0;32m[----------] [m1 test from DDGRoundBasic (46 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (88 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13958== 
+==13958== HEAP SUMMARY:
+==13958==     in use at exit: 72,704 bytes in 1 blocks
+==13958==   total heap usage: 226 allocs, 225 frees, 125,778 bytes allocated
+==13958== 
+==13958== LEAK SUMMARY:
+==13958==    definitely lost: 0 bytes in 0 blocks
+==13958==    indirectly lost: 0 bytes in 0 blocks
+==13958==      possibly lost: 0 bytes in 0 blocks
+==13958==    still reachable: 0 bytes in 0 blocks
+==13958==         suppressed: 72,704 bytes in 1 blocks
+==13958== 
+==13958== For counts of detected and suppressed errors, rerun with: -v
+==13958== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.37 sec
+----------------------------------------------------------
+Test Passed.
+"DDGRoundBasic.TwoPlayers" end time: Sep 14 22:02 PDT
+"DDGRoundBasic.TwoPlayers" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/15 Testing: ListBasic.ConstructionDestruction
+6/15 Test: ListBasic.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test" "--gtest_filter=ListBasic.ConstructionDestruction" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests
+"ListBasic.ConstructionDestruction" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13959== Memcheck, a memory error detector
+==13959== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13959== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13959== Command: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test --gtest_filter=ListBasic.ConstructionDestruction --gtest_color=yes
+==13959== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = ListBasic.ConstructionDestruction
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ListBasic
+[0;32m[ RUN      ] [mListBasic.ConstructionDestruction
+[0;32m[       OK ] [mListBasic.ConstructionDestruction (6 ms)
+[0;32m[----------] [m1 test from ListBasic (18 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (65 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13959== 
+==13959== HEAP SUMMARY:
+==13959==     in use at exit: 72,704 bytes in 1 blocks
+==13959==   total heap usage: 235 allocs, 234 frees, 125,984 bytes allocated
+==13959== 
+==13959== LEAK SUMMARY:
+==13959==    definitely lost: 0 bytes in 0 blocks
+==13959==    indirectly lost: 0 bytes in 0 blocks
+==13959==      possibly lost: 0 bytes in 0 blocks
+==13959==    still reachable: 0 bytes in 0 blocks
+==13959==         suppressed: 72,704 bytes in 1 blocks
+==13959== 
+==13959== For counts of detected and suppressed errors, rerun with: -v
+==13959== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.23 sec
+----------------------------------------------------------
+Test Passed.
+"ListBasic.ConstructionDestruction" end time: Sep 14 22:02 PDT
+"ListBasic.ConstructionDestruction" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/15 Testing: ListBasic.Empty
+9/15 Test: ListBasic.Empty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test" "--gtest_filter=ListBasic.Empty" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests
+"ListBasic.Empty" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13960== Memcheck, a memory error detector
+==13960== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13960== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13960== Command: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test --gtest_filter=ListBasic.Empty --gtest_color=yes
+==13960== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = ListBasic.Empty
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ListBasic
+[0;32m[ RUN      ] [mListBasic.Empty
+[0;32m[       OK ] [mListBasic.Empty (10 ms)
+[0;32m[----------] [m1 test from ListBasic (19 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (59 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13960== 
+==13960== HEAP SUMMARY:
+==13960==     in use at exit: 72,704 bytes in 1 blocks
+==13960==   total heap usage: 225 allocs, 224 frees, 125,500 bytes allocated
+==13960== 
+==13960== LEAK SUMMARY:
+==13960==    definitely lost: 0 bytes in 0 blocks
+==13960==    indirectly lost: 0 bytes in 0 blocks
+==13960==      possibly lost: 0 bytes in 0 blocks
+==13960==    still reachable: 0 bytes in 0 blocks
+==13960==         suppressed: 72,704 bytes in 1 blocks
+==13960== 
+==13960== For counts of detected and suppressed errors, rerun with: -v
+==13960== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.18 sec
+----------------------------------------------------------
+Test Passed.
+"ListBasic.Empty" end time: Sep 14 22:02 PDT
+"ListBasic.Empty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/15 Testing: SelSortBasic.TenElementFindMin
+3/15 Test: SelSortBasic.TenElementFindMin
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/selection_sort_tests/selection_sort_test" "--gtest_filter=SelSortBasic.TenElementFindMin" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/selection_sort_tests
+"SelSortBasic.TenElementFindMin" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13961== Memcheck, a memory error detector
+==13961== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13961== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13961== Command: /home/student/hw-clfische/hw2/hw2-check/selection_sort_tests/selection_sort_test --gtest_filter=SelSortBasic.TenElementFindMin --gtest_color=yes
+==13961== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = SelSortBasic.TenElementFindMin
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from SelSortBasic
+[0;32m[ RUN      ] [mSelSortBasic.TenElementFindMin
+[0;32m[       OK ] [mSelSortBasic.TenElementFindMin (6 ms)
+[0;32m[----------] [m1 test from SelSortBasic (26 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (80 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13961== 
+==13961== HEAP SUMMARY:
+==13961==     in use at exit: 72,704 bytes in 1 blocks
+==13961==   total heap usage: 242 allocs, 241 frees, 125,509 bytes allocated
+==13961== 
+==13961== LEAK SUMMARY:
+==13961==    definitely lost: 0 bytes in 0 blocks
+==13961==    indirectly lost: 0 bytes in 0 blocks
+==13961==      possibly lost: 0 bytes in 0 blocks
+==13961==    still reachable: 0 bytes in 0 blocks
+==13961==         suppressed: 72,704 bytes in 1 blocks
+==13961== 
+==13961== For counts of detected and suppressed errors, rerun with: -v
+==13961== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.18 sec
+----------------------------------------------------------
+Test Passed.
+"SelSortBasic.TenElementFindMin" end time: Sep 14 22:02 PDT
+"SelSortBasic.TenElementFindMin" time elapsed: 00:00:01
+----------------------------------------------------------
+
+11/15 Testing: ListBasic.ThreeItemRemove
+11/15 Test: ListBasic.ThreeItemRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test" "--gtest_filter=ListBasic.ThreeItemRemove" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests
+"ListBasic.ThreeItemRemove" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13962== Memcheck, a memory error detector
+==13962== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13962== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13962== Command: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test --gtest_filter=ListBasic.ThreeItemRemove --gtest_color=yes
+==13962== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = ListBasic.ThreeItemRemove
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ListBasic
+[0;32m[ RUN      ] [mListBasic.ThreeItemRemove
+[0;32m[       OK ] [mListBasic.ThreeItemRemove (7 ms)
+[0;32m[----------] [m1 test from ListBasic (17 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (71 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13962== 
+==13962== HEAP SUMMARY:
+==13962==     in use at exit: 72,704 bytes in 1 blocks
+==13962==   total heap usage: 240 allocs, 239 frees, 125,990 bytes allocated
+==13962== 
+==13962== LEAK SUMMARY:
+==13962==    definitely lost: 0 bytes in 0 blocks
+==13962==    indirectly lost: 0 bytes in 0 blocks
+==13962==      possibly lost: 0 bytes in 0 blocks
+==13962==    still reachable: 0 bytes in 0 blocks
+==13962==         suppressed: 72,704 bytes in 1 blocks
+==13962== 
+==13962== For counts of detected and suppressed errors, rerun with: -v
+==13962== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.34 sec
+----------------------------------------------------------
+Test Passed.
+"ListBasic.ThreeItemRemove" end time: Sep 14 22:02 PDT
+"ListBasic.ThreeItemRemove" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/15 Testing: ListBasic.ThreeItemAdd
+8/15 Test: ListBasic.ThreeItemAdd
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test" "--gtest_filter=ListBasic.ThreeItemAdd" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests
+"ListBasic.ThreeItemAdd" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13963== Memcheck, a memory error detector
+==13963== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13963== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13963== Command: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test --gtest_filter=ListBasic.ThreeItemAdd --gtest_color=yes
+==13963== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = ListBasic.ThreeItemAdd
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ListBasic
+[0;32m[ RUN      ] [mListBasic.ThreeItemAdd
+List was: 
+[768, 1024, 1536]
+[0;32m[       OK ] [mListBasic.ThreeItemAdd (10 ms)
+[0;32m[----------] [m1 test from ListBasic (18 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (47 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13963== 
+==13963== HEAP SUMMARY:
+==13963==     in use at exit: 72,704 bytes in 1 blocks
+==13963==   total heap usage: 240 allocs, 239 frees, 125,966 bytes allocated
+==13963== 
+==13963== LEAK SUMMARY:
+==13963==    definitely lost: 0 bytes in 0 blocks
+==13963==    indirectly lost: 0 bytes in 0 blocks
+==13963==      possibly lost: 0 bytes in 0 blocks
+==13963==    still reachable: 0 bytes in 0 blocks
+==13963==         suppressed: 72,704 bytes in 1 blocks
+==13963== 
+==13963== For counts of detected and suppressed errors, rerun with: -v
+==13963== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.23 sec
+----------------------------------------------------------
+Test Passed.
+"ListBasic.ThreeItemAdd" end time: Sep 14 22:02 PDT
+"ListBasic.ThreeItemAdd" time elapsed: 00:00:01
+----------------------------------------------------------
+
+1/15 Testing: SelSortBasic.OneElementFindMin
+1/15 Test: SelSortBasic.OneElementFindMin
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/selection_sort_tests/selection_sort_test" "--gtest_filter=SelSortBasic.OneElementFindMin" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/selection_sort_tests
+"SelSortBasic.OneElementFindMin" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13964== Memcheck, a memory error detector
+==13964== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13964== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13964== Command: /home/student/hw-clfische/hw2/hw2-check/selection_sort_tests/selection_sort_test --gtest_filter=SelSortBasic.OneElementFindMin --gtest_color=yes
+==13964== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = SelSortBasic.OneElementFindMin
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from SelSortBasic
+[0;32m[ RUN      ] [mSelSortBasic.OneElementFindMin
+[0;32m[       OK ] [mSelSortBasic.OneElementFindMin (10 ms)
+[0;32m[----------] [m1 test from SelSortBasic (20 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (70 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13964== 
+==13964== HEAP SUMMARY:
+==13964==     in use at exit: 72,704 bytes in 1 blocks
+==13964==   total heap usage: 233 allocs, 232 frees, 125,257 bytes allocated
+==13964== 
+==13964== LEAK SUMMARY:
+==13964==    definitely lost: 0 bytes in 0 blocks
+==13964==    indirectly lost: 0 bytes in 0 blocks
+==13964==      possibly lost: 0 bytes in 0 blocks
+==13964==    still reachable: 0 bytes in 0 blocks
+==13964==         suppressed: 72,704 bytes in 1 blocks
+==13964== 
+==13964== For counts of detected and suppressed errors, rerun with: -v
+==13964== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.18 sec
+----------------------------------------------------------
+Test Passed.
+"SelSortBasic.OneElementFindMin" end time: Sep 14 22:02 PDT
+"SelSortBasic.OneElementFindMin" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/15 Testing: ListBasic.OneItemAdd
+7/15 Test: ListBasic.OneItemAdd
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test" "--gtest_filter=ListBasic.OneItemAdd" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests
+"ListBasic.OneItemAdd" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13965== Memcheck, a memory error detector
+==13965== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13965== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13965== Command: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test --gtest_filter=ListBasic.OneItemAdd --gtest_color=yes
+==13965== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = ListBasic.OneItemAdd
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ListBasic
+[0;32m[ RUN      ] [mListBasic.OneItemAdd
+[0;32m[       OK ] [mListBasic.OneItemAdd (11 ms)
+[0;32m[----------] [m1 test from ListBasic (26 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (68 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13965== 
+==13965== HEAP SUMMARY:
+==13965==     in use at exit: 72,704 bytes in 1 blocks
+==13965==   total heap usage: 236 allocs, 235 frees, 125,874 bytes allocated
+==13965== 
+==13965== LEAK SUMMARY:
+==13965==    definitely lost: 0 bytes in 0 blocks
+==13965==    indirectly lost: 0 bytes in 0 blocks
+==13965==      possibly lost: 0 bytes in 0 blocks
+==13965==    still reachable: 0 bytes in 0 blocks
+==13965==         suppressed: 72,704 bytes in 1 blocks
+==13965== 
+==13965== For counts of detected and suppressed errors, rerun with: -v
+==13965== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.29 sec
+----------------------------------------------------------
+Test Passed.
+"ListBasic.OneItemAdd" end time: Sep 14 22:02 PDT
+"ListBasic.OneItemAdd" time elapsed: 00:00:01
+----------------------------------------------------------
+
+13/15 Testing: ListBasic.CircularIndicies
+13/15 Test: ListBasic.CircularIndicies
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test" "--gtest_filter=ListBasic.CircularIndicies" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests
+"ListBasic.CircularIndicies" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13966== Memcheck, a memory error detector
+==13966== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13966== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13966== Command: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test --gtest_filter=ListBasic.CircularIndicies --gtest_color=yes
+==13966== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = ListBasic.CircularIndicies
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ListBasic
+[0;32m[ RUN      ] [mListBasic.CircularIndicies
+[0;32m[       OK ] [mListBasic.CircularIndicies (18 ms)
+[0;32m[----------] [m1 test from ListBasic (23 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (71 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13966== 
+==13966== HEAP SUMMARY:
+==13966==     in use at exit: 72,704 bytes in 1 blocks
+==13966==   total heap usage: 240 allocs, 239 frees, 125,998 bytes allocated
+==13966== 
+==13966== LEAK SUMMARY:
+==13966==    definitely lost: 0 bytes in 0 blocks
+==13966==    indirectly lost: 0 bytes in 0 blocks
+==13966==      possibly lost: 0 bytes in 0 blocks
+==13966==    still reachable: 0 bytes in 0 blocks
+==13966==         suppressed: 72,704 bytes in 1 blocks
+==13966== 
+==13966== For counts of detected and suppressed errors, rerun with: -v
+==13966== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.34 sec
+----------------------------------------------------------
+Test Passed.
+"ListBasic.CircularIndicies" end time: Sep 14 22:02 PDT
+"ListBasic.CircularIndicies" time elapsed: 00:00:01
+----------------------------------------------------------
+
+10/15 Testing: ListBasic.OneItemRemove
+10/15 Test: ListBasic.OneItemRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test" "--gtest_filter=ListBasic.OneItemRemove" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests
+"ListBasic.OneItemRemove" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13967== Memcheck, a memory error detector
+==13967== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13967== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13967== Command: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test --gtest_filter=ListBasic.OneItemRemove --gtest_color=yes
+==13967== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = ListBasic.OneItemRemove
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ListBasic
+[0;32m[ RUN      ] [mListBasic.OneItemRemove
+[0;32m[       OK ] [mListBasic.OneItemRemove (7 ms)
+[0;32m[----------] [m1 test from ListBasic (11 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (38 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13967== 
+==13967== HEAP SUMMARY:
+==13967==     in use at exit: 72,704 bytes in 1 blocks
+==13967==   total heap usage: 236 allocs, 235 frees, 125,898 bytes allocated
+==13967== 
+==13967== LEAK SUMMARY:
+==13967==    definitely lost: 0 bytes in 0 blocks
+==13967==    indirectly lost: 0 bytes in 0 blocks
+==13967==      possibly lost: 0 bytes in 0 blocks
+==13967==    still reachable: 0 bytes in 0 blocks
+==13967==         suppressed: 72,704 bytes in 1 blocks
+==13967== 
+==13967== For counts of detected and suppressed errors, rerun with: -v
+==13967== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.09 sec
+----------------------------------------------------------
+Test Passed.
+"ListBasic.OneItemRemove" end time: Sep 14 22:02 PDT
+"ListBasic.OneItemRemove" time elapsed: 00:00:01
+----------------------------------------------------------
+
+12/15 Testing: ListBasic.Set
+12/15 Test: ListBasic.Set
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test" "--gtest_filter=ListBasic.Set" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests
+"ListBasic.Set" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13969== Memcheck, a memory error detector
+==13969== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13969== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13969== Command: /home/student/hw-clfische/hw2/hw2-check/circular_list_tests/circular_list_test --gtest_filter=ListBasic.Set --gtest_color=yes
+==13969== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = ListBasic.Set
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from ListBasic
+[0;32m[ RUN      ] [mListBasic.Set
+[0;32m[       OK ] [mListBasic.Set (12 ms)
+[0;32m[----------] [m1 test from ListBasic (22 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (73 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13969== 
+==13969== HEAP SUMMARY:
+==13969==     in use at exit: 72,704 bytes in 1 blocks
+==13969==   total heap usage: 230 allocs, 229 frees, 125,584 bytes allocated
+==13969== 
+==13969== LEAK SUMMARY:
+==13969==    definitely lost: 0 bytes in 0 blocks
+==13969==    indirectly lost: 0 bytes in 0 blocks
+==13969==      possibly lost: 0 bytes in 0 blocks
+==13969==    still reachable: 0 bytes in 0 blocks
+==13969==         suppressed: 72,704 bytes in 1 blocks
+==13969== 
+==13969== For counts of detected and suppressed errors, rerun with: -v
+==13969== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.28 sec
+----------------------------------------------------------
+Test Passed.
+"ListBasic.Set" end time: Sep 14 22:02 PDT
+"ListBasic.Set" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/15 Testing: SelSortBasic.TenElementSort
+5/15 Test: SelSortBasic.TenElementSort
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--error-exitcode=42" "--trace-children=no" "/home/student/hw-clfische/hw2/hw2-check/selection_sort_tests/selection_sort_test" "--gtest_filter=SelSortBasic.TenElementSort" "--gtest_color=yes"
+Directory: /home/student/hw-clfische/hw2/hw2-check/selection_sort_tests
+"SelSortBasic.TenElementSort" start time: Sep 14 22:02 PDT
+Output:
+----------------------------------------------------------
+==13968== Memcheck, a memory error detector
+==13968== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==13968== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==13968== Command: /home/student/hw-clfische/hw2/hw2-check/selection_sort_tests/selection_sort_test --gtest_filter=SelSortBasic.TenElementSort --gtest_color=yes
+==13968== 
+Running main() from gtest_main.cc
+[0;33mNote: Google Test filter = SelSortBasic.TenElementSort
+[m[0;32m[==========] [mRunning 1 test from 1 test case.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from SelSortBasic
+[0;32m[ RUN      ] [mSelSortBasic.TenElementSort
+[0;32m[       OK ] [mSelSortBasic.TenElementSort (29 ms)
+[0;32m[----------] [m1 test from SelSortBasic (38 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test case ran. (91 ms total)
+[0;32m[  PASSED  ] [m1 test.
+==13968== 
+==13968== HEAP SUMMARY:
+==13968==     in use at exit: 72,704 bytes in 1 blocks
+==13968==   total heap usage: 251 allocs, 250 frees, 125,917 bytes allocated
+==13968== 
+==13968== LEAK SUMMARY:
+==13968==    definitely lost: 0 bytes in 0 blocks
+==13968==    indirectly lost: 0 bytes in 0 blocks
+==13968==      possibly lost: 0 bytes in 0 blocks
+==13968==    still reachable: 0 bytes in 0 blocks
+==13968==         suppressed: 72,704 bytes in 1 blocks
+==13968== 
+==13968== For counts of detected and suppressed errors, rerun with: -v
+==13968== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.28 sec
+----------------------------------------------------------
+Test Passed.
+"SelSortBasic.TenElementSort" end time: Sep 14 22:02 PDT
+"SelSortBasic.TenElementSort" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Sep 14 22:02 PDT

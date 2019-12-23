@@ -1,0 +1,3 @@
+/home/student/hw-clfische/hw8/CMakeFiles/edit_cache.dir
+/home/student/hw-clfische/hw8/CMakeFiles/rebuild_cache.dir
+/home/student/hw-clfische/hw8/CMakeFiles/scrabble.dir

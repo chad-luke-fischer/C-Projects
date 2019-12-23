@@ -1,0 +1,28 @@
+1a) Which of the following are acceptable behaviors in solving homeworks/projects?
+    Looking up information relevant to the course online.
+    Asking the course staff for help.
+1b)
+    Eclipse
+    Sublime
+    MVS
+1c)
+    Each student has 3 late days of which only one can be used per HW.
+1d)
+    complete the normal hw submission form
+    submit next assignment sooner
+    Email your instructor
+2a)
+    Git Bash
+    Terminal
+2b)
+    git add . hw1q2b.cpp
+    git status
+    git commit -m "comment on this file"
+    git log 
+2c)
+    will not work with no comments
+
+6a)
+    the storage manager frees all elements after the pointer and other pointer may be lost
+
+

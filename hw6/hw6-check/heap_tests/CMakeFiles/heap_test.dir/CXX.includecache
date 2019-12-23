@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/hw-clfische/hw6/MinHeap.h
+vector
+-
+stdexcept
+-
+
+/home/student/hw-clfische/hw6/hw6-check/heap_tests/heap_tests.cpp
+gtest/gtest.h
+-
+random_generator.h
+-
+../../MinHeap.h
+/home/student/hw-clfische/hw6/MinHeap.h
+string
+-
+vector
+-
+algorithm
+-
+utility
+-
+cstdlib
+-
+cassert
+-
+
+testing_utils/./random_generator.h
+random
+-
+vector
+-
+set
+-
+string
+-
+cstdint
+-
+

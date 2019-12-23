@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -g3 -Og   CMakeFiles/parser.dir/home/student/hw-clfische/hw3/parser.cpp.o  -o parser 

@@ -1,0 +1,8 @@
+Analyze the running time of your new k-way templated Merge Sort:
+Runtime of my mergesort is O(klogk)
+
+Which algorithm would you say that your k-way mergeSort resembles when k=n?
+When k=n my alogorithm runs a selection sort to correctly sort elements
+
+What is its running time in that case?
+In this case the runtime is O(k^2logk)

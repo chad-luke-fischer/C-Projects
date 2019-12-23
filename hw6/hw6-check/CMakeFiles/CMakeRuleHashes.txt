@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+9a15ce99907aa0b74559646a68f92262 /home/student/hw-clfische/hw6/search
+339a2a6840e1aad2326bf4717e0e54ae CMakeFiles/check
+84607573866926e9ee87c6c291585b47 CMakeFiles/user_makefile

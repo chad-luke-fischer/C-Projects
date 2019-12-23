@@ -1,0 +1,23 @@
+Question 2:
+a)After the stated operations, the top of the stack 1 is 3 and the bottom is 6. Stack 2 will be empty.
+
+b)Enqueue: Pushing to the stack has a runtime of theta(1) because there is no need to traverse.
+Dequeue: Has theta(n) runtime because you have to traverse through each element for the worst case
+
+c)For the worst case scenario, popping would run in theta(n) and pushing would also run in theta(n)
+Because you would have to both pop and push the runtime would be theta(n^2)
+
+Question 3:
+a)In big theta notation this code would run in theta(nlogn) time. This is because the worst case is
+an array filled with zeros, then the inner loop will run with each iteration. 
+
+b)The inner loop will also have a runtime of theta(nlogn). But theta(nlogn) will have to be squared due to the
+additional for loop. However the inner most loop runs only when j % i == 0. 
+The runtime is thus theta((nlogn)^2 - nlogn).
+The dominant term is theta((nlogn)^2)
+
+c)The inside for loop is triggered i times when i = the size.
+The runtime is constant... theta(n)
+
+d)The new size is set to 2*size. Thus the innermost loop executes when i is a multiple of 20.
+Because 2 and 10 are constants the runtime is theta(n)

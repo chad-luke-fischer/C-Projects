@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/hw-clfische/hw7/avlbst.h
+iostream
+-
+cstdlib
+-
+string
+-
+rotateBST.h
+/home/student/hw-clfische/hw7/rotateBST.h
+
+/home/student/hw-clfische/hw7/hw7_api_check/avl_checker.cpp
+avlbst.h
+-
+string
+-
+

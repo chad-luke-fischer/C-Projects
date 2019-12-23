@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhw3_user_code.a  CMakeFiles/hw3_user_code.dir/home/student/hw-clfische/hw3/stackint.cpp.o CMakeFiles/hw3_user_code.dir/home/student/hw-clfische/hw3/circular_list_int.cpp.o CMakeFiles/hw3_user_code.dir/home/student/hw-clfische/hw3/parser.cpp.o
+/usr/bin/ranlib libhw3_user_code.a

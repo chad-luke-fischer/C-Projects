@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/hw-clfische/hw3/hw3-check/parser_tests/parser_test.cpp
+gtest/gtest.h
+-
+parser_utils.h
+-
+algorithm
+-
+string
+-
+
+testing_utils/./parser_utils.h
+user_code_runner.h
+testing_utils/./user_code_runner.h
+gtest/gtest.h
+-
+string
+-
+
+testing_utils/./user_code_runner.h
+string
+-
+vector
+-
+gtest/gtest.h
+-
+kwsys/Process.h
+-
+
+testing_utils/generated_headers/kwsys/Configure.h
+
+testing_utils/generated_headers/kwsys/Process.h
+kwsys/Configure.h
+-
+

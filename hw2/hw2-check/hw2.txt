@@ -1,0 +1,36 @@
+Chad Fischer
+CS104 hw2
+
+Problem 1:
+
+a)	The status of README.md is unmodified.
+
+b)	The status of README.md is modified.
+ 	The status of fun_problem.txt is untracked.
+
+c)	The status of README.md is staged.
+ 	The status of fun_problem.txt is staged.
+
+d)	The status of README.md is modified.
+ 	The status of fun_problem.txt is modified.
+
+e)	The status of README.md is 
+ 	The status of fun_problem.txt is 
+
+f)	The status of README.md
+ 	The status of fun_problem.txt is 
+
+ Problem 3:
+
+ a) Map: A map would be the best option to store unique zipcodes without an order. Voting statistics can be easily acessed by supplying the zip code.  
+
+ b) Set: The order of the data also doesn't have an impact here, you only need the students who have. 
+
+ c) Array: It would be easy to store the collectable pokemon in an array parralell to their poke index.
+
+ d) Map with an array of strings: the key would be the movie name and year to find all the relevant reviews.
+
+ Problem 4:
+ Function A recursively searches until it reaches the end of the linked list. Function B switches the order of the pointers. For example while 4 pointed to 5, 5 then points to 4. As a result, running of the selected code will recursively flip the order of the numbers. If the input was a list with the elements {1,2,3,4,5}, the list would be reversed resulting in {5,4,3,2,1}.
+
+ 
